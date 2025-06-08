@@ -1,0 +1,59 @@
+/* layout.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a0d2a;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #b3005f;
+}
+
+.header .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+    width:100%
+    /* prevent .main from growing beyond viewport */
+}
+
+#hamburger {
+    background: none;
+    color: #ff66cc;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff66cc;
+}
+
+.fetch-btn {
+    background-color: #d63384;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fetch-btn:hover {
+    background-color: #e83e8c;
+}

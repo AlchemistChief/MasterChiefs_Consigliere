@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'dejavu-sans-mono';
+    src: url('/fonts/dejavu-sans-mono/DejaVuSansMono.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'dejavu-sans-mono';
+    src: url('/fonts/dejavu-sans-mono/DejaVuSansMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* ──────────  ──────────  ──────────  ──────────  ──────────  ────────── */
+
+@font-face {
+    font-family: 'ubuntu-font';
+    src: url('/fonts/ubuntu-font/Ubuntu-B.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* ──────────  ──────────  ──────────  ──────────  ──────────  ────────── */
+
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/fonts/SourceCodePro/SourceCodePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/fonts/SourceCodePro/SourceCodePro-Black.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* ──────────  ──────────  ──────────  ──────────  ──────────  ────────── */
+
+@font-face {
+    font-family: 'aria-mono';
+    src: url('/fonts/aria-mono/ArialMonoMTProRegular.TTF') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aria-mono';
+    src: url('/fonts/aria-mono/ArialMonoMTProBold.TTF') format('truetype');
+    font-weight: bold;
+}

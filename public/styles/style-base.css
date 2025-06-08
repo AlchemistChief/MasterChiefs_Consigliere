@@ -1,0 +1,28 @@
+/* base.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+        'ubuntu-font',
+        'SourceCodePro',
+        'aria-mono',
+        'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: auto;
+    background-color: #1a0a1a;
+    color: #ffd0eb;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterChief's Consigliere</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/style-base.css">
+    <link rel="stylesheet" href="styles/style-layout.css">
+    <link rel="stylesheet" href="styles/style-content.css">
+    <link rel="stylesheet" href="styles/style-sidebar.css">
+    <link rel="stylesheet" href="styles/style-terminal.css">
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="left">
+                <button id="hamburger">&#9776;</button>
+                <span class="title">MasterChief's Consigliere</span>
+            </div>
+            <button id="fetch-cert" class="fetch-btn">Fetch Certificate</button>
+        </header>
+
+        <div class="main">
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-inner" id="sidebar-inner">
+                    <div class="sidebar-section">
+                        <div class="sidebar-label">Information:</div>
+                        <button class="sidebar-btn" id="terms-btn">Terms Of Service</button>
+                        <button class="sidebar-btn" id="license-btn">License</button>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <div class="sidebar-label">Functions:</div>
+                        <button class="sidebar-btn" id="settings-btn">Settings</button>
+                        <button class="sidebar-btn" id="robDiamonds-btn">Robbing</button>
+                    </div>
+                </div>
+            </aside>
+
+            </aside>
+            <div class="content-area" id="content-area">
+                <div id="content" class="content-box">
+                    <!-- Main content goes here -->
+                </div>
+                <div class="log-container">
+                    <div class="log-header">
+                        <div>Terminal</div>
+                        <div class="button-group">
+                            <button onclick="hideDebug()">Debug</button>
+                            <button onclick="hideError()">Error</button>
+                            <button onclick="hideValid()">Valid</button>
+                            <button onclick="hideTimestamp()">Timestamp</button>
+                            <button id="close-log" onclick="toggleLogVisibility()">X</button>
+                        </div>
+                    </div>
+                    <div class="log-content" style="display: block;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

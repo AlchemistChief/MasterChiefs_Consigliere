@@ -1,0 +1,9 @@
+{
+  "diamonds_MaxTiles": 0,
+  "diamonds_LevelRange": "4-5",
+  "diamonds_Rob_Active": true,
+  "settings_Actions_Amount": 8,
+  "settings_Cycle_Interval": 10,
+  "settings_Debug_Enabled": true,
+  "settings_Debug_Enabled_Active": true
+}
